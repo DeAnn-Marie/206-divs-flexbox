@@ -114,33 +114,59 @@ body {
   display: flex;
   justify-content: space-between;
 
-}
-
-p{
-
-  color: grey;
-
+  flex-flow: row;
+  flex-flow: wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: grey;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.5em;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
   margin-right: 5px;
+  
 
 }
 .div-1, .div-2 {
   border-right: 1px dotted grey;
+  padding-right: 1em;
+}
+ header, footer{
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+h1 {
+  color: grey;
+  font-size: 3.5em;
+  padding-bottom: .75em;
+}
+h2  {
+  color: grey;
+  font-size: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid grey;
+}
+
+p{
+  padding-bottom: 1em;
+
 }
 
 
-
+footer {
+  margin-top: 1em;
+  border-top: 1px solid grey;
+  
+}
 
 /* ==========================================================================
    Helper classes
